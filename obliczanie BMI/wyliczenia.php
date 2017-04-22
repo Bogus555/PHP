@@ -7,9 +7,9 @@
 	$a=$_POST["a"];
 	$b=$_POST["b"];
 	
-	$BMI=b/pow($a, 2);
+	$BMI=$a+$b;
 	
-	print("Twoje BMI wynosi: $BMI");
+	echo $BMI;
 	
 ?>
 

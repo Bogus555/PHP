@@ -1,7 +1,7 @@
-<!DOCTYPE >
+<!DOCTYPE html>
 <html>
 <head>
-	<title>BMI</title>
+	<title>Obliczanie BMI</title>
 	<meta charset="UTF-8">
 </head>
 <style>
@@ -16,21 +16,18 @@
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', endColorstr='#596a72',GradientType=0 ); /* IE6-9 */
 	}
 	
-	h1
-	{
+	h1{
 		text-align: center;
 		margin-top: 50px;
 		font-size: 50px;
 	}
 	
-	form
-	{
+	form{
 		text-align: center;
 		font-size: 20px;
 	}
 	
-	input
-	{
+	input{
 		margin: 10px;
 	}
 	
@@ -39,14 +36,14 @@
 
 	<h1>Oblicz swoje BMI!</h1>
 	
-	<form action="wyliczenia.php" metod="post" >
-	Podaj swój wzrost:
-	<input type="text" name="a" />
-		<br>
-	Podaj swoją wage:
-	<input type="text" name="b" />
-		<br>
-	<input type="submit" value="Zatwierdź" />
+	<form action="wyliczenia.php" method="post">
+	Podaj swój wzrost (m):
+	<input type="text" name="a">
+	<br>
+	Podaj swoją wage (kg): 
+	<input type="text" name="b">
+	<br>
+	<input type="submit" value="Zatwierdź">
 	</form>
 
 </body>
